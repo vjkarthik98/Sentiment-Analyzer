@@ -90,4 +90,3 @@ This setup is fully reproducible for a portfolio.
     4.  **Builds & Pushes** the Docker image.
     5.  **Deploys** by sending a `docker pull` and `docker run` command to the EC2 instance via AWS SSM.
 
-    git push
