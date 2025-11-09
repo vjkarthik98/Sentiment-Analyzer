@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentiment Analyzer</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <main>
+        <h1>Sentiment Analysis Project</h1>
+        <p>Enter any text to analyze its sentiment (Positive or Negative).</p>
+
+        <textarea id="text-input" placeholder="Type or paste your text here..."></textarea>
+        <button id="analyze-button">Analyze</button>
+
+        <div id="result-container">
+            <h2>Result:</h2>
+            <p id="result-label">---</p>
+            <p id="result-score">---</p>
+        </div>
+
+        <div class="disclaimer">
+            <p><strong>Disclaimer:</strong> This model (distilbert-sst-2) is for demo purposes. It was trained on movie reviews and may struggle with sarcasm or complex sentences. Do not use for final decision-making.</p>
+        </div>
+    </main>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>
